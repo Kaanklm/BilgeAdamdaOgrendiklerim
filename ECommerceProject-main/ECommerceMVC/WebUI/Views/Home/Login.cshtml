@@ -1,0 +1,31 @@
+﻿@model LoginVM
+@{
+    ViewBag.Title = "Login";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="container">
+
+    <form class="form-signin" method="post">
+        <h2 class="form-signin-heading">Giriş Yap</h2>
+        <div class="login-wrap">
+            @Html.TextBoxFor(x => x.UserName, new { @class = "form-control", placeholder = "kullanıcı adı" })
+            @Html.ValidationMessageFor(x => x.UserName)
+            @Html.TextBoxFor(x => x.Password, new { @class = "form-control", placeholder = "şifre", type = "password" })
+            @Html.ValidationMessageFor(x => x.Password)
+            <button class="btn btn-lg btn-login btn-block" type="submit">Giriş Yap</button>
+
+            <div class="registration">
+                Hala hesabın yok mu?
+                <a class="" href="/Home/Register">
+                    Hesap oluştur
+                </a>
+            </div>
+
+        </div>
+
+
+    </form>
+
+</div>
+

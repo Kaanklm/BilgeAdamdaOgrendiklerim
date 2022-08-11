@@ -1,0 +1,21 @@
+﻿@model Product
+@{
+    ViewBag.Title = "DeleteProduct";
+    Layout = "~/Areas/Administrator/Views/Shared/_AdminLayout.cshtml";
+}
+
+<div class="container">
+    <div class="row">
+        <div class="panel">
+            <div class="alert alert-danger">
+                <form method="post">
+                    <h2>@Model.ProductName</h2>
+                    <span>Silmek istediğinize emin misiniz?</span>
+                    <button type="submit" class="btn btn-danger">Evet Sil</button>
+                    <a href="/Administrator/Product" class="btn">İptal</a>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+

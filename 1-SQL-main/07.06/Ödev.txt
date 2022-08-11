@@ -1,0 +1,12 @@
+Instagram Database
+------------------------------
+
+Users	
+
+UserProfiles
+
+Photos
+
+PhotoComments
+
+Messages

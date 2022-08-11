@@ -1,0 +1,28 @@
+﻿using ISP_Validate.Data;
+using ISP_Validate.Interface;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ISP_Validate
+{
+    public class Manager : Employee, IReport,IManaged
+    {
+        public void AddEmployee(Employee employee)
+        {
+            EmployeeData.employees.Add(employee);
+        }
+
+        public void GeneratePerformanceReport(Employee sender)
+        {
+            SendEmail(sender.Email);
+        }
+
+        public void SendEmail(string email)
+        {
+            Console.WriteLine(email + " adresine mail gönderildi!");
+        }
+    }
+}

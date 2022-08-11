@@ -1,0 +1,42 @@
+
+MVC Projesi
+-------------------
+
+WOW
+--Alliance
+	--Human
+		--Warrior
+			--Attack (int damge)
+			--Defense (int value)
+			
+		--Mage
+			--Defense(int value)
+		--Priest
+		--Rogue
+
+	--NightElf
+		--Warrior
+		--Mage
+		--Priest
+		--Rogue
+	--Gnome
+		--Warrior
+		--Mage
+		--Priest
+		--Rogue
+--Horde
+	--Orc
+		--Warrior
+		--Mage
+		--Priest
+		--Rogue
+	--Undead
+		--Warrior
+		--Mage
+		--Priest
+		--Rogue
+	--Tauren
+		--Warrior
+		--Mage
+		--Priest
+		--Rogue

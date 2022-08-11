@@ -1,0 +1,32 @@
+1-menuler isminde bir dizi oluştur.
+2-fiyatlar isminde bir dizi oluştur.
+3-toplam tutar isminde bir değişken oluştur.
+4-sipariş bilgileri isminde 5 elemanlı bir dizi oluştur.
+5-hesapla butonu tıklandığında;
+	5.1-sipariş fiyat isminde bir değişken oluştur.
+	5.2-siparişfiyat'ın içerisine cmbMenu'nun seçilmiş olan index numarasını yakalayarak fiyatlar isimli dizinin indexine denk gelen fiyatı topla ve aktar.
+	5.3-siparişbilgisi isimli dizinin 0. indexsine cmbMenu'nun seçilmiş olan text'ini aktar.
+	5.4-eğer radio butonlardan;
+		5.4.1- rbOrta seçilmişse sipariş fiyatın içerisine herhangi bir değer aktarma, siparişbilgisi dizisinin 1.indexsine rbOrta'nın Textini aktar.
+		- rbBuyuk seçilmişse sipariş fiyatın içerisine 10 Tl topla ve aktar, siparişbilgisi dizisinin 1.indexsine rbBuyuk'nın Textini aktar.
+		-yukarıdakilerden hariç yani rbKing seçilmişse sipariş fiyatın içerisine 15 Tl topla ve aktar, siparişbilgisi dizisinin 1.indexsine rbKing'nın Textini aktar.
+6-Ekstra bilgisi isminde bir string oluştur.
+7-groupBox içerisinde bulunan checkboxlarda dön ve seçilmiş olan checkboxların text özelliğini ekstra bilgi isimli string'e birleştir ve aktar.
+8-ekstra bilgi isimli değişkeni siparişBilgisi dizisinin 2. indexine ekle.
+9-nudAdet'in değerini siparişFiyat'ın içerisine çarp ve aktar.
+10-nudAdetin değerini siparişBilgisi dizisinin 3. indexine ekle.
+11-toplamtutar değişkenine siparişFiyat'ın değerini topla ve aktar.
+12-toplamtutar'ı siparişbilgisi dizisinin 4. indexsine ekle.
+13-ListviewItem nesnesinin bir örneğini oluştur. (lvi)
+14-sipariş bilgisinde dön,
+	14.1-eğer iterasyon 0 ise lvi'nin Text özelliğine sipariş bilgisinin 0. indexini aktar.
+	14.2-değilse lvi'nin subItem larına gelen indexi ekle.
+15-döngünün sonunda doldurulan lvi'i listView1'in item'larına ekle.
+16-btnSipariş tıklandığında,
+	16.1-listview1'in itemlarının adetini al
+	16.2-toplamtutar'ı al.
+	16.3-bilgileri mesaj kutusunda göster.
+17-Mesaj kutusunda eğer ok basılırsa,
+	--temizleme metodu yaz ve işlemi tamamla.
+18-hayır butonuna basılırsa hiç bir şey yapma
+---SON---

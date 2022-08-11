@@ -1,0 +1,35 @@
+﻿@model AppUserVM
+@{
+    ViewBag.Title = "Register";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="container">
+    <form class="form-signin" method="post" enctype="multipart/form-data">
+        <h2 class="form-signin-heading">Kayıt Ol</h2>
+        <div class="login-wrap">
+            <p>Lütfen aşağıdaki formu eksiksiz doldurun.</p>
+
+            @Html.TextBoxFor(x => x.UserName, new { @class = "form-control", placeholder = "Kullanıcı adı" })
+
+            @Html.TextBoxFor(x => x.Email, new { @class = "form-control", placeholder = "Email" })
+
+            @Html.TextBoxFor(x => x.Password, new { @class = "form-control", placeholder = "Şifre" })
+
+            @Html.TextBoxFor(x => x.ConfirmPassword, new { @class = "form-control", placeholder = "Şifre (Tekrar)" })
+
+            <input type="file" class="form-control" name="ProfilePhotoPath">
+            <button class="btn btn-lg btn-login btn-block" type="submit">Kayıt Ol</button>
+
+            <div class="registration">
+                Zaten bir hesabım var.
+                <a class="" href="login.html">
+                    Giriş Yap
+                </a>
+            </div>
+
+        </div>
+
+    </form>
+</div>
+

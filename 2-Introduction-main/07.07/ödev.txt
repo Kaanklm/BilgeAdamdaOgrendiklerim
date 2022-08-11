@@ -1,0 +1,14 @@
+Irem => 55 metot
+Faruk=> 60 metot
+Andulkadir=> 75 metot
+Ahmet=> 55 metot
+Gökçen=> 70 metot
+Yasin=> 45 metot
+Burcu=> 100 metot
+Ekrem=> 100 metot
+--------------------------
+Ali => 100 metot
+Kadir=> 100 metot
+Kaan=> 100 metot
+İbrahim=> 100 metot
+

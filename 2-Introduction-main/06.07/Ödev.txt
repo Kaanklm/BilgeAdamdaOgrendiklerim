@@ -1,0 +1,19 @@
+Console Application
+-------------------------------------
+10 adet geriye değer döndürmeyen parametre almayan metot
+
+10 adet geriye değer döndürmeyen parametre alan metot
+
+10 adet geriye değer döndüren parametre almayan metot
+
+10 adet geriye değer döndüren parametre alan metot
+
+Windows Form Application
+------------------------------------------
+10 adet geriye değer döndürmeyen parametre almayan metot
+
+10 adet geriye değer döndürmeyen parametre alan metot
+
+10 adet geriye değer döndüren parametre almayan metot
+
+10 adet geriye değer döndüren parametre alan metot

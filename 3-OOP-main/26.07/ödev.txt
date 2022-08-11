@@ -1,0 +1,27 @@
+--Ürün
+	--Ad
+		*ürün isimlerinin tamamı küçük harflerden oluşmalı.
+	--Fiyat 
+		*ürün fiyatları kdv hariç girilmeli.
+	--Stok miktarı
+--Kategori
+	--Kategori Adı
+		*kategori isimlerinin tamamı küçük harflerden oluşmalı.
+	--Açıklama
+--Tedarikçi
+	--Tedarikçi Adı
+	--Telefon No
+		*+90 yazılmamışsa eklensin yazılmışsa işlem yapılmasın.
+	--Adres
+--Nakliyeci
+	--Nakliyeci Adı
+	--Telefon No
+	--Adres
+--Müşteri
+	--Müşteri Adı
+	--Telefon No
+	--Email
+		*emaillerde sadece gmail,hotmail,yahoo kullanılmalı.
+	--Adres
+		*maksimum 255 karakter girilebilsin.
+-------------------------------------------------------------------------------------

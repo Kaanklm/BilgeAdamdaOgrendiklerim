@@ -1,0 +1,7 @@
+Irem=> OOP Nedir? Class nedir? field nedir? Encapsulation nedir? 03.08.2021
+Ali=> Inheritance nedir? Örnek 04.08.2021
+Abdulkadir=> Polymorphism nedir? Örnek 05.08.2021
+Gökçen=> Static Nedir? Constructor Nedir? 09.08.2021
+İbrahim=> içerisinde static ve constructor olan bir örnek. 10.08
+Kadir=> Abstract nedir? Örnek 11.08
+Alper=> ? 12.08
